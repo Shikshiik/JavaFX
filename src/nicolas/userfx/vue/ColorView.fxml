@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nicolas.userfx.controller.ColorController">
+   <children>
+      <Pane layoutX="65.0" layoutY="67.0" prefHeight="250.0" prefWidth="450.0" AnchorPane.leftAnchor="65.0">
+         <children>
+            <Slider fx:id="sliderRed" layoutX="22.0" layoutY="50.0" prefHeight="15.0" prefWidth="200.0" />
+            <Slider fx:id="sliderGreen" layoutX="22.0" layoutY="125.0" prefHeight="15.0" prefWidth="200.0" />
+            <Slider fx:id="sliderBlue" layoutX="22.0" layoutY="200.0" prefHeight="15.0" prefWidth="200.0" />
+            <Label layoutX="22.0" layoutY="25.0" text="Red" textFill="RED" />
+            <Label layoutX="21.0" layoutY="100.0" text="Green" textFill="#00ff2f" />
+            <Label layoutX="22.0" layoutY="175.0" text="Blue" textFill="#2600ff" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="214.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" />
+            <TextField fx:id="textRed" layoutX="234.0" layoutY="45.0" prefHeight="25.0" prefWidth="44.0" />
+            <TextField fx:id="textGreen" layoutX="234.0" layoutY="125.0" prefHeight="25.0" prefWidth="44.0" />
+            <TextField fx:id="textBlue" layoutX="234.0" layoutY="200.0" prefHeight="25.0" prefWidth="44.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
