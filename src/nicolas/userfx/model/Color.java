@@ -64,6 +64,7 @@ public class Color {
         setHexValue(hexValue);
     }
 
+
     /**
      * Méthode toString()
      *

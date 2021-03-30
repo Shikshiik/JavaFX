@@ -9,7 +9,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nicolas.userfx.controller.ColorController">
    <children>
-      <Pane layoutX="65.0" layoutY="67.0" prefHeight="250.0" prefWidth="450.0" AnchorPane.leftAnchor="65.0">
+      <Pane layoutX="65.0" layoutY="67.0" prefHeight="250.0" prefWidth="493.0" AnchorPane.leftAnchor="65.0">
          <children>
             <Slider fx:id="sliderRed" layoutX="22.0" layoutY="50.0" prefHeight="15.0" prefWidth="200.0" />
             <Slider fx:id="sliderGreen" layoutX="22.0" layoutY="125.0" prefHeight="15.0" prefWidth="200.0" />
@@ -21,7 +21,11 @@
             <TextField fx:id="textRed" layoutX="234.0" layoutY="45.0" prefHeight="25.0" prefWidth="44.0" />
             <TextField fx:id="textGreen" layoutX="234.0" layoutY="125.0" prefHeight="25.0" prefWidth="44.0" />
             <TextField fx:id="textBlue" layoutX="234.0" layoutY="200.0" prefHeight="25.0" prefWidth="44.0" />
+            <TextField fx:id="TextHexValue" layoutX="307.0" layoutY="45.0" />
+            <Label layoutX="372.0" layoutY="25.0" text="Hex" />
+            <Pane fx:id="colorView" layoutX="299.0" layoutY="75.0" prefHeight="150.0" prefWidth="176.0" />
          </children>
       </Pane>
+      
    </children>
 </AnchorPane>
